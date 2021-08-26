@@ -12,6 +12,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>9.0</LangVersion>
+    <Platforms>x64;Any CPU</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
