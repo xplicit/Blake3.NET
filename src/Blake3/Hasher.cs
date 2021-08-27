@@ -19,7 +19,7 @@ namespace Blake3
     /// </remarks>
     public unsafe struct Hasher : IDisposable
     {
-        private const string DllName = "blake3_dotnet";
+        private const string DllName = "libblake3_dotnet";
         private void* _hasher;
         /// <summary>
         /// We are taking a limit of 1024 bytes to switch to a preemptive version,
